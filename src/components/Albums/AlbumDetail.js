@@ -15,7 +15,7 @@ const AlbumDetail = () => {
   const location = useLocation();
 
   const [album, setAlbum] = useState(location.state?.album || null);
-  const [user, setUser] = useState(location.state?.user || null);
+  const [user] = useState(location.state?.user || null);
 
   const [isImagesLoading, setIsImagesLoading] = useState(true);
 

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import { EyeOutlined } from "@ant-design/icons";
-import { Button, Table, Spin } from "antd";
+import { Button, Table } from "antd";
 
 import DetailLayout from "../../layout/DetailLayout";
 import { UsersIcon } from "../../assets/Icons";
@@ -17,7 +17,7 @@ function UserDetail(props) {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const [user, setUser] = useState(location.state?.user || null);
+  const [user] = useState(location.state?.user || null);
   const [albums, setAlbums] = useState([]);
   const [loading, setLoading] = useState(false);
 
