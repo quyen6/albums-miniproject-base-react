@@ -1,4 +1,4 @@
-# Album-TestGeekUp
+# Album-MiniProject
 
 Đây là dự án React sử dụng thư viện Ant Design để hiển thị danh sách album, người dùng, phân trang, và điều hướng chi tiết album.
 
@@ -7,8 +7,9 @@
 - React
 - Ant Design
 - React Router
-- CSS Modules / SCSS
+- SCSS Modules 
 - JSONPlaceholder API (Fake REST API)
+- Axios
 
 ## ⚙️ Yêu cầu hệ thống
 
@@ -20,9 +21,7 @@
 1. **Clone dự án về máy**
 
 ```bash
-git clone https://github.com/quyen6/Albums-TestGeekUp.git
-
-cd Albums-TestGeekUp
+git https://github.com/quyen6/albums-miniproject-base-react
 
 ```
 
@@ -66,7 +65,7 @@ http://localhost:3000
    src/
    ├── components/ # Các trang Albums, Users
    ├── assets/ # Tài nguyên như ảnh, icon, màu sắc, fonts...
-   ├── hook/ # Các custom hook (ví dụ: usePaginationParams)
+   ├── pagination/ # Phân trang
    ├── layout/ # Các layout dùng chung (ví dụ: DetailLayout, Aside)
    ├── App.js # Cấu hình định tuyến và layout chính
    ├── index.js # Điểm khởi tạo ứng dụng React
