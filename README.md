@@ -7,7 +7,7 @@
 - React
 - Ant Design
 - React Router
-- SCSS Modules 
+- CSS Modules / SCSS
 - JSONPlaceholder API (Fake REST API)
 - Axios
 
@@ -21,7 +21,9 @@
 1. **Clone dự án về máy**
 
 ```bash
-git https://github.com/quyen6/albums-miniproject-base-react
+git clone https://github.com/quyen6/Albums-TestGeekUp.git
+
+cd Albums-TestGeekUp
 
 ```
 
