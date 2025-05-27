@@ -59,7 +59,7 @@ function Aside({ collapsed, setCollapsed }) {
         }}
       >
         <Link
-          to="/albums?pageSize=20&current=1"
+          to="/albums?current=1&pageSize=20"
           style={{ display: "inline-flex", alignItems: "center", gap: 10 }}
         >
           <img
