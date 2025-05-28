@@ -1,5 +1,3 @@
-import React from "react";
-
 import { useNavigate, useLocation, Link } from "react-router-dom";
 
 import logo from "../../assets/Icons/logospin.png";

@@ -33,7 +33,7 @@ input,
 }
 a {
   color: var(--text-color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 ul {
   border-right: 0;

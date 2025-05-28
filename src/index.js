@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { ConfigProvider } from "antd";
 import GlobalStyles from "./assets/GlobalStyles";
 import { BrowserRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
